@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora Simple</title>
+  <!-- Enlace al archivo CSS externo para estilos -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <!-- Contenedor principal de la calculadora -->
+  <div class="calculadora">
+    <!-- Pantalla de la calculadora (entrada y salida) -->
+    <input type="text" id="display" readonly style="font-size: 24px;">
+    <br>
+    <!-- Botones numéricos y de operadores -->
+    <button onclick="appendToDisplay('7')">7</button>
+    <button onclick="appendToDisplay('8')">8</button>
+    <button onclick="appendToDisplay('9')">9</button>
+    <button onclick="appendToDisplay('+')">+</button>
+    <br>
+    <button onclick="appendToDisplay('4')">4</button>
+    <button onclick="appendToDisplay('5')">5</button>
+    <button onclick="appendToDisplay('6')">6</button>
+    <button onclick="appendToDisplay('-')">-</button>
+    <br>
+    <button onclick="appendToDisplay('1')">1</button>
+    <button onclick="appendToDisplay('2')">2</button>
+    <button onclick="appendToDisplay('3')">3</button>
+    <button onclick="appendToDisplay('*')">*</button>
+    <br>
+    <button onclick="appendToDisplay('0')">0</button>
+    <button onclick="appendToDisplay('.')">.</button>
+    <button onclick="calculateResult()">=</button>
+    <button onclick="appendToDisplay('/')">/</button>
+    <br>
+    <!-- Botón para borrar la pantalla de la calculadora -->
+    <button onclick="clearDisplay()">C</button>
+  </div>
+  <!-- Enlace al archivo JavaScript externo para el funcionamiento de la calculadora -->
+  <script src="calculadora.js"></script>
+</body>
+</html>

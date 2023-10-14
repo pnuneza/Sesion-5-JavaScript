@@ -1,0 +1,31 @@
+<!DOCTYPE html> <!-- Declaración del tipo de documento HTML -->
+
+<html>
+<head>
+  <title>Reserva de Hotel</title> <!-- Título de la página que se mostrará en la pestaña del navegador -->
+  <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Enlace a un archivo externo de hoja de estilos CSS -->
+</head>
+
+<body>
+  <h1>Reserva de Hotel</h1> <!-- Encabezado principal de la página -->
+
+  <!-- Formulario para realizar una reserva -->
+  <form id="booking-form">
+    <label for="name">Nombre:</label> <!-- Etiqueta para el campo de nombre -->
+    <input type="text" id="name"> <!-- Campo de entrada de texto para el nombre del usuario -->
+
+    <label for="check-in">Fecha de llegada:</label> <!-- Etiqueta para la fecha de llegada -->
+    <input type="date" id="check-in"> <!-- Campo de entrada de fecha para la fecha de llegada -->
+
+    <label for="check-out">Fecha de salida:</label> <!-- Etiqueta para la fecha de salida -->
+    <input type="date" id="check-out"> <!-- Campo de entrada de fecha para la fecha de salida -->
+
+    <label for="guests">Número de Huéspedes:</label> <!-- Etiqueta para el número de huéspedes -->
+    <input type="number" id="guests" min="1" value="1"> <!-- Campo de entrada numérica para el número de huéspedes, con un valor mínimo de 1 -->
+
+    <button type="submit" id="reserve-button">Reservar</button> <!-- Botón de envío del formulario para realizar la reserva -->
+  </form>
+
+  <script src="script.js"></script> <!-- Inclusión de un archivo de script JavaScript para gestionar la lógica de la página -->
+</body>
+</html>

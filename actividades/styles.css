@@ -1,0 +1,20 @@
+/* Estilos para el contenedor principal de la calculadora */
+.calculadora {
+    width: 300px;                   /* Ancho del contenedor */
+    margin: 0 auto;                 /* Centra el contenedor horizontalmente en la página */
+    padding: 20px;                  /* Relleno interno del contenedor */
+    border: 1px solid #ccc;       /* Borde con un ancho de 1 píxel y color gris claro */
+    border-radius: 10px;            /* Bordes redondeados con un radio de 10 píxeles */
+    background-color: #f4f4f4;    /* Color de fondo gris claro */
+    font-size: 20px;                /* Tamaño de fuente del texto en la calculadora */
+  }
+  
+  /* Estilos para los botones dentro de la calculadora */
+  .calculadora button {
+    width: 50px;               /* Ancho de los botones */
+    height: 50px;              /* Altura de los botones */
+    font-size: 20px;           /* Tamaño de fuente del texto en los botones */
+    margin: 5px;               /* Margen entre los botones */
+  }
+  
+  
